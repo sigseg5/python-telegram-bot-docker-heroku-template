@@ -1,5 +1,5 @@
-# python-telegram-bot-docker-heroku-template
-Python telegram bot template to run it locally, run in Docker directly or deploy it on Heroku by Heroku Container Registry
+# Python Telegram bot template for run it locally, run in Docker directly or deploy it on Heroku by Heroku Container Registry
+This is a Python telegram bot template for run it locally, run in Docker directly or deploy it on Heroku by Heroku Container Registry 
 
 ## Requirements
 * Telegram account
