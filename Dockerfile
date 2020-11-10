@@ -3,8 +3,9 @@ MAINTAINER <abc@test.com>
 
 
 RUN mkdir /app
+ADD requirements.txt /app/requirements.txt
+RUN pip install -r /app/requirements.txt
 ADD . /app
 WORKDIR /app
 
-RUN pip install -r ./requirements.txt
 CMD python /app/bot.py
