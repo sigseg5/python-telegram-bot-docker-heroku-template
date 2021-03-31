@@ -13,7 +13,6 @@ This is a Python telegram bot template for run it locally, run in Docker directl
 * Run `bot.py` to start
 
 ## Run in Docker
-* Edit `MAINTAINER` at Dockerfile
 * (Optional) Specify Python version at Dockerfile
 * Add TOKEN to .env file. You can get token from [BotFather](https://www.t.me/BotFather) at Telegram
 * (Optional) Run `pip freeze > requirements.txt` to add your own dependencies installed by `pip`
